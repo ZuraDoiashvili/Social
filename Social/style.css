@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/BackGround.jpg);
+    max-width: 100%;
+    max-height: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    display: grid;
+}
+
+button {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 240px;
+    height: 35px;
+    margin-top: 70px;
+    transition: 0.5s;
+}
+.YTbutton:hover {
+    background-color: rgb(51, 47, 47);
+    color: rgb(255, 0, 0);
+}
+.libutton:hover {
+    background-color: rgb(18, 67, 131);
+    color: rgb(255, 255, 255);
+}
+.Gitbutton:hover {
+    background-color: white;
+    color: black;
+}
+.withegithub {
+    width: 22px;
+    border-radius: 45%;
+    transform: translateY(-27px);
+    margin-right: 250px;
+    transition: 0.6s;
+
+}
+.githublogo {
+    width: 22px;
+    margin-right: 250px;
+    margin-top: 2px;
+    opacity: 0%;
+    transition: 0.6s;
+} 
+
+.Fbbutton:hover {
+    background-color: rgb(18, 67, 131);
+    color: rgb(255, 255, 255);
+}
+.Gitbutton:hover .githublogo {
+    opacity: 1;
+}
+.Gitbutton:hover .withegithub {
+    opacity: 0;
+}
+.linkedin {
+    width: 22px;
+    margin-top: 4px;
+    margin-right: 250px;
+}
+.linkedinname {
+    margin-top: -25px;
+    font-size: 20px;
+}
+.githubname {
+    transform: translateY(-74px);
+    font-size: 20px;
+}
+.youtubename {
+    margin-top: -25px;
+    font-size: 20px;
+}
+.youtube {
+    width: 30px;
+    margin-top: 4px;
+    margin-right: 250px;
+}
+.facebookname {
+    margin-top: -25px;
+    font-size: 20px;
+}
+.facebook {
+    width: 25px;
+    margin-top: 2px;
+    margin-right: 250px;
+}
+.robloxname{
+    margin-top: -35px;
+    font-size: 20px;
+}
+.roblox {
+    width: 30px;
+    margin-top: 2px;
+    margin-right: 250px;
+}
+
+@media screen and (max-width: 315px) {
+    button {
+     width: 200px;
+     margin: 5px;
+    }
+}
+@media screen and (max-width: 375px) {
+    
+}
